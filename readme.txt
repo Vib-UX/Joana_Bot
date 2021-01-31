@@ -6,3 +6,4 @@ For preprocessing:
 4.  The words are then tokenized and further assigned a unique index which gives us our word index
 5.  Our training sentences are converted into sequence of numbers with the help of the reference of words i.e., word index
 6.  The training sentences now, sequences are padded with zeroes.
+7.  Padding is a term relevant to convolutional neural networks as it refers to the amount of pixels added to an image when it is being processed by the kernel of a CNN. For    example, if the padding in a CNN is set to zero, then every pixel value that is added will be of value zero.
